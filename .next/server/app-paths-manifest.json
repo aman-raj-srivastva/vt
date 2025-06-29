@@ -1,5 +1,4 @@
 {
-  "/practice/page": "app/practice/page.js",
   "/start-practice/page": "app/start-practice/page.js",
-  "/test-api/page": "app/test-api/page.js"
+  "/practice/page": "app/practice/page.js"
 }

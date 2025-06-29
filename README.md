@@ -8,6 +8,7 @@ A modern, aesthetically appealing website for AI-powered interview practice with
 - **Customized Practice Sessions**: Configure job role, difficulty level, and target company
 - **Multiple Interview Types**: Practice behavioral, technical, and case study interviews
 - **Real-time Coaching**: Interactive chat interface with AI analysis
+- **Code Writing & Submission**: Write and submit code to answer technical questions with AI review
 - **Voice & Video Support**: Record audio and video for comprehensive feedback
 - **Progress Tracking**: Monitor your improvement with detailed analytics
 - **Modern UI/UX**: Beautiful, responsive design with smooth animations
@@ -111,9 +112,17 @@ node scripts/test-api.js gsk_your_key_here
 ### Practice Session
 1. The AI will generate personalized questions based on your configuration
 2. Answer questions and receive real-time AI feedback
-3. Use voice/video recording for enhanced practice
-4. Track your progress and scores
-5. Generate new questions anytime
+3. **Write and submit code** for technical questions using the built-in code editor
+4. Use voice/video recording for enhanced practice
+5. Track your progress and scores
+6. Generate new questions anytime
+
+**Code Writing Feature:**
+- Click the "Write Code" button in session controls to enter code mode
+- Select your programming language from the dropdown (JavaScript, Python, Java, C++, etc.)
+- Write your code in the syntax-highlighted editor
+- Submit code for AI review and feedback
+- The AI interviewer will analyze your code and ask follow-up questions
 
 ### API Status Monitoring
 - **Practice Page**: Shows API status indicator in the header
@@ -140,6 +149,7 @@ node scripts/test-api.js gsk_your_key_here
 The platform uses Groq API for:
 - **Dynamic Question Generation**: Questions tailored to job role, experience level, and company
 - **Intelligent Feedback**: Detailed analysis with scores, strengths, and suggestions
+- **Code Analysis**: Review and feedback on submitted code solutions
 - **Follow-up Questions**: Contextual follow-ups based on your answers
 - **Fallback System**: Graceful degradation when API is unavailable
 - **Real-time Validation**: Continuous API health monitoring
@@ -161,6 +171,14 @@ The platform uses Groq API for:
 - **Beginner**: 0-2 years experience, fundamental concepts
 - **Intermediate**: 2-5 years experience, practical scenarios
 - **Advanced**: 5+ years experience, complex challenges
+
+### Supported Programming Languages
+The code writing feature supports multiple programming languages:
+- **Web Development**: JavaScript, TypeScript, PHP, Ruby
+- **General Purpose**: Python, Java, C++, C#, Go, Rust
+- **Mobile Development**: Swift, Kotlin
+- **Data & Analytics**: SQL, Scala
+- **More languages can be easily added**
 
 ## 🔧 Customization
 
